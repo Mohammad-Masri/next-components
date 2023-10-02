@@ -5,9 +5,15 @@ export default function Home() {
     <div className="bg-white text-black h-screen flex flex-col p-9 gap-10">
       <Link
         className="p-7 items-center justify-center hover:text-sky-400"
-        href="/full-page-sliders"
+        href="/horizontal-full-page-sliders"
       >
-        Full Page Sliders
+        Horizontal Full Page Sliders
+      </Link>
+      <Link
+        className="p-7 items-center justify-center hover:text-sky-400"
+        href="/vertical-full-page-sliders"
+      >
+        Vertical Full Page Sliders
       </Link>
       <Link
         className="p-7 items-center justify-center hover:text-sky-400"
