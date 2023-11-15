@@ -21,6 +21,12 @@ export default function Home() {
       >
         Auto Height Sliders
       </Link>
+      <Link
+        className="p-7 items-center justify-center hover:text-sky-400"
+        href="/dynamic-line"
+      >
+        Dynamic Line
+      </Link>
     </div>
   );
 }
